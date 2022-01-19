@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: rgb(53, 62, 124);
+    background: rgb(7,4,65);
+    background: linear-gradient(0deg, rgba(7,4,65,1) 2%, rgba(9,9,121,1) 22%, rgba(156,238,255,1) 94%);
     padding-top: 55px;
 }
 
