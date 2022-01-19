@@ -2,3 +2,11 @@ nav .container-fluid{
     border: 3px  gainsboro solid;
     border-radius: 10px;
 }
+
+/* mueve el contenido del menu desplegable */
+@media (min-width: 992px) {
+    div > li > ul{
+        position: absolute;
+        left: -13%; top: auto;
+    }
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faCat } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-nav-bar',
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class NavBarComponent implements OnInit {
 
   constructor() { }
+
+  faCat = faCat;
 
   ngOnInit(): void {
   }
